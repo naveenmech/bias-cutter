@@ -11,7 +11,7 @@ const BodyContent = () => {
   return (
     <div className="bg-[white] flex flex-col py-2 mt-5 rounded-[20px] z-10 mb-5 ">
       {/* grid method */}
-      <div className="grid grid-cols-3 gap-4 px-2 ">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-2 ">
         <PlanComponent />
         <AngleWidthComponent />
         <HourBasedProduction />

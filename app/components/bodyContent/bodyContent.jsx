@@ -5,6 +5,7 @@ import HourBasedProduction from "./hourBasedProduction";
 import RecipeDetails from "./recipeDetails";
 import PieChart from "./pieChart";
 import BarChartComponent from "./BarChartComponent";
+import Footer from "./footer";
 
 const BodyContent = () => {
   return (
@@ -18,6 +19,7 @@ const BodyContent = () => {
         <PieChart />
         <BarChartComponent />
       </div>
+      <Footer />
 
       {/* flex method */}
 

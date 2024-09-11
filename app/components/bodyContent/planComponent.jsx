@@ -2,7 +2,7 @@ import React from "react";
 
 const plans = [{ plan: "60", complete: "45" }];
 const operator = [
-  { plan: "Naveenkumar", id: "1001" },
+  { plan: "uva kumar", id: "1001" },
   { plan: "Mohan", id: "1002" },
   { plan: "Nirmal", id: "1003" },
   { plan: "Mydha", id: "1004" },
